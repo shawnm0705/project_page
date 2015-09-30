@@ -1,3 +1,15 @@
 .panel a{
   display: block;
 }
+.panel-primary>.panel-heading-past{
+  background-color: #A3DAA3;
+}
+.panel-primary>.panel-heading-overdue{
+  background-color: #FFA3A3;
+}
+.panel-primary>.panel-heading-current{
+  background-color: ##428bca;
+}
+.panel-primary>.panel-heading-future{
+  background-color: #ADD6FF;
+}
