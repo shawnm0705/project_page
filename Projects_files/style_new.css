@@ -13,3 +13,7 @@
 .panel-primary>.panel-heading-future{
   background-color: #ADD6FF;
 }
+.project-name{
+  color: white;
+  font-size: 20px;
+}
