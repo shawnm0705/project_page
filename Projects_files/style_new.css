@@ -2,10 +2,10 @@
   display: block;
 }
 .panel-primary>.panel-heading-past{
-  background-color: #A3DAA3;
+  background-color: #CCEBD6;
 }
 .panel-primary>.panel-heading-overdue{
-  background-color: #FFA3A3;
+  background-color: #FFD1D1;
 }
 .panel-primary>.panel-heading-current{
   background-color: ##428bca;
