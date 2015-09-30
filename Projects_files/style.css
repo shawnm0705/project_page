@@ -1,0 +1,440 @@
+.panel {
+    margin-top: 15px;
+    border-color: #F8F8F8;
+    font-family: Helvetica, Arial, Sans-Serif;
+}
+.panel-heading {
+    background-color: #4A849C;
+}
+.panel-heading {
+    color: #fff;
+}
+#admin-design .panel-heading a {
+    color: #fff;
+    text-decoration: none;
+}
+#admin-design .panel-title {
+    font-weight: bold;
+    text-shadow: 0px 1px 1px rgba(0,0,0,0.5);
+}
+.story {
+    padding: 2px;
+    border-radius: 5px;
+    border: 2px solid #ABCFDE;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    position: relative;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+
+.story .story-action {
+    padding-left:  5px;
+    padding-right:  5px;
+}
+
+.story .story-action .dropdown-menu {
+    top: 10px;
+    width: 75px;
+    min-width: 0;
+    right: -45px;
+    text-align: left;
+    left: auto;
+}
+
+.story .story-title {
+    font-weight: 700;
+    font-size: 11px;
+    font-family: Arial;
+    padding: 2px;
+    text-align: center;
+    max-height: 50px;
+    vertical-align: center;
+    overflow: hidden;
+}
+
+.story .story-icons {
+    color: #38ACEC;
+    font-size: 16px;
+    padding: 0 10px;
+    position: absolute;
+    bottom: 0;
+}
+
+.story.completed {
+	border-color: #3c763d;
+}
+
+.story.completed:after {
+  font-family: FontAwesome;
+  content: "\f046";
+  color: rgba(255,255,255, 0);
+  font-size: 60px;
+  z-index: 10;
+  display: block;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  padding-left: 22px;
+  padding-top: 7px;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 255, 0, 0.2);
+}
+
+.story.completed:hover:after,
+.story.completed.selected {
+  color: rgba(255,255,255, .5);
+}
+
+.story.unpublished {
+ background: rgba(255, 255, 0, 0.2);
+}
+
+.story.deleted {
+ background: rgba(255, 0, 0, 0.2);
+}
+
+.story.locked:after {
+  font-family: FontAwesome;
+  content: "\f023";
+  color: #ddd;
+  font-size: 60px;
+  z-index: 100;
+  display: block;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  padding-left: 30px;
+  padding-top: 7px;
+  top: 0;
+  left: 0;
+  right: 0;
+
+}
+.story.locked:hover:after,
+.story.locked.selected {
+  color: #ccc;
+}
+
+#admin-design .story.new-story {
+    font-size: 48px;
+    text-align: center;
+}
+#admin-design .story.new-story i {
+    margin-top: 14px;
+    color: #3090c7;
+}
+
+.story:hover,
+.story.selected {
+    background: #569FBC;
+    cursor: pointer;
+    color: #FFF;
+    border-color: #569FBC;
+}
+#admin-design .panel-body {
+    color: #596679;
+    font-weight: bold;
+}
+#admin-design .panel-body .panel-description {
+    font-weight: bold;
+    font-size: 16px;
+}
+#admin-design .add-story {
+    border: 2px solid #ABCFDE;
+    border-radius: 5px;
+    font-size: 25px;
+    color: #596679;
+    height: 40px;
+    width: 40px;
+    padding: 0;
+    text-align: center;
+    margin-top: 35px;
+}
+#admin-design .add-story a {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+#admin-design .add-story a:hover {
+    color: #FFF;
+}
+#admin-design .add-story a {
+    color: #596679;
+}
+#admin-design .story-content a {
+    color: #AAA;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+#admin-design .story-content:hover a {
+    color: #CCC;
+}
+.story-content h4 {
+    font-weight: bold;
+}
+
+.story-content div, .story-description {
+    font-weight: normal;
+}
+.story-wrapper h4 {
+    font-weight: bold;
+}
+.story-wrapper {
+    font-weight: normal;
+}
+.story-icon-size {
+    font-size: 15px;
+    margin-left: 3px;
+    color: #999;
+}
+.story-icons {
+    vertical-align: bottom;
+}
+
+.btn-milestone {
+    font-size: 16px;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: #4ACAB4 !important;
+    border: none !important;
+    padding: 10px 0px;
+    -webkit-transition: all 0.5s ease !important;
+    -moz-transition: all 0.5s ease !important;
+    -ms-transition: all 0.5s ease !important;
+    -o-transition: all 0.5s ease !important;
+    transition: all 0.5s ease !important;
+}
+.btn-milestone:hover {
+    background: #32AB96 !important;
+}
+#view-story .story-action {
+     text-align: right;
+    color: #ddd;
+    font-size: 24px;
+}
+.stories a:hover {
+    text-decoration: none;
+}
+.quiz-button {
+    text-align: center;
+}
+.quiz-btn {
+    font-weight: bold !important;
+    background: #DDDDDD !important;
+    border: 1px solid #CCCCCC !important;
+    border-radius: 3px;
+    padding: 10px 100px;
+    color: #666 !important;
+}
+.quiz-btn:hover {
+    color: #FFF !important;
+}
+#view-story .story-action i {
+    margin-left: 10px;
+}
+#view-story .story-action i:hover {
+    color: #333;
+}
+#view-story .story-wrapper {
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+#view-story .story-content {
+    border-right: 1px solid #ddd;
+}
+#view-story .story-sidebar {
+    padding: 0;
+}
+#view-story .story-sidebar .nav-tabs {
+    border: 0;
+    top: 0;
+}
+#view-story .story-sidebar .nav-tabs li.active a {
+    margin: 0;
+    box-shadow: none;
+    color: #fff;
+    background: #54C571;
+}
+#view-story .story-sidebar .nav-tabs a {
+    border: 1px solid #ddd;
+    top: -1px;
+}
+#view-story .story-sidebar .nav-tabs a:first-child {
+    left: -1px;
+}
+#view-story .story-sidebar .tab-content {
+    border: 0;
+}
+#activity-sequence-add .sequence-scrolling {
+    height: 500px;
+    overflow: auto;
+}
+#project-sortable .sort-item {
+    cursor: move;
+}
+#sequence-communication .duration-label {
+    font-size: 14px;
+    margin-top: 30px;
+}
+#sequence-communication .duration-label input {
+    float: none;
+}
+#sequence-communication .submit-button {
+    margin-top: 20px;
+}
+
+.form-horizontal .form-group.row {
+    padding-left: 15px;
+		padding-right: 15px;
+}
+
+.form-horizontal .form-group.row label {
+    float: left;
+}
+
+.meter {
+    height: 23px;  /* Can be anything */
+    position: relative;
+    background: #555;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    border-radius: 25px;
+    padding: 4px;
+    -webkit-box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+    -moz-box-shadow   : inset 0 -1px 1px rgba(255,255,255,0.3);
+    box-shadow        : inset 0 -1px 1px rgba(255,255,255,0.3);
+}
+
+.meter > span {
+    display: block;
+    height: 100%;
+       -webkit-border-top-right-radius: 8px;
+    -webkit-border-bottom-right-radius: 8px;
+           -moz-border-radius-topright: 8px;
+        -moz-border-radius-bottomright: 8px;
+               border-top-right-radius: 8px;
+            border-bottom-right-radius: 8px;
+        -webkit-border-top-left-radius: 20px;
+     -webkit-border-bottom-left-radius: 20px;
+            -moz-border-radius-topleft: 20px;
+         -moz-border-radius-bottomleft: 20px;
+                border-top-left-radius: 20px;
+             border-bottom-left-radius: 20px;
+    background-color: rgb(43,194,83);
+    background-image: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      color-stop(0, rgb(43,194,83)),
+      color-stop(1, rgb(84,240,84))
+     );
+    background-image: -webkit-linear-gradient(
+      center bottom,
+      rgb(43,194,83) 37%,
+      rgb(84,240,84) 69%
+     );
+    background-image: -moz-linear-gradient(
+      center bottom,
+      rgb(43,194,83) 37%,
+      rgb(84,240,84) 69%
+     );
+    background-image: -ms-linear-gradient(
+      center bottom,
+      rgb(43,194,83) 37%,
+      rgb(84,240,84) 69%
+     );
+    background-image: -o-linear-gradient(
+      center bottom,
+      rgb(43,194,83) 37%,
+      rgb(84,240,84) 69%
+     );
+    -webkit-box-shadow:
+      inset 0 2px 9px  rgba(255,255,255,0.3),
+      inset 0 -2px 6px rgba(0,0,0,0.4);
+    -moz-box-shadow:
+      inset 0 2px 9px  rgba(255,255,255,0.3),
+      inset 0 -2px 6px rgba(0,0,0,0.4);
+    position: relative;
+    overflow: hidden;
+}
+.orange > span {
+    background-color: #f1a165;
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #f1a165),color-stop(1, #f36d0a));
+    background-image: -webkit-linear-gradient(top, #f1a165, #f36d0a);
+        background-image: -moz-linear-gradient(top, #f1a165, #f36d0a);
+        background-image: -ms-linear-gradient(top, #f1a165, #f36d0a);
+        background-image: -o-linear-gradient(top, #f1a165, #f36d0a);
+}
+
+.red > span {
+    background-color: #f0a3a3;
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #f0a3a3),color-stop(1, #f42323));
+    background-image: -webkit-linear-gradient(top, #f0a3a3, #f42323);
+        background-image: -moz-linear-gradient(top, #f0a3a3, #f42323);
+        background-image: -ms-linear-gradient(top, #f0a3a3, #f42323);
+        background-image: -o-linear-gradient(top, #f0a3a3, #f42323);
+}
+
+.orange > span {
+    background-color: #0af339;
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #f1a165),color-stop(1, #f36d0a));
+    background-image: -webkit-linear-gradient(top, #f1a165, #f36d0a);
+        background-image: -moz-linear-gradient(top, #f1a165, #f36d0a);
+        background-image: -ms-linear-gradient(top, #f1a165, #f36d0a);
+        background-image: -o-linear-gradient(top, #f1a165, #f36d0a);
+}
+
+.meter > span:after, .animate > span > span {
+  -webkit-animation: move 2s linear infinite;
+}
+
+.animate > span:after {
+    display: none;
+}
+
+@-webkit-keyframes move {
+    0% {
+       background-position: 0 0;
+    }
+    100% {
+       background-position: 50px 50px;
+    }
+}
+@-webkit-animation expandWidth {
+   0% { width: 0; }
+   100% { width: auto; }
+}
+
+.achievement-unlock-body {
+  padding: 10px 20px;
+}
+.achievement-unlock-body .achievement-modal-badge {
+  float: left;
+}
+.achievement-unlock-body .achievement-modal-badge img {
+  max-width: 100%;
+  max-height: 50px;
+}
+.achievement-unlock-body .achievement-modal-achieve {
+  float: left;
+  margin-left: 20px;
+  margin-top: 8px;
+  font-size: 18px;
+}
+.collapse-instruction {
+	margin: 10px 0;
+	font-weight: normal;
+}

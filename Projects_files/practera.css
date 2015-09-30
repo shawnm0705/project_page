@@ -1,0 +1,623 @@
+/*!
+ * PRACTERA Stylesheet
+ * this needs to be done in SASS
+ */
+
+.main-container::before {
+	background-color: transparent !important;
+}
+
+.content-container .error {
+	background-color: rgba(0,0,0,.7);
+}
+
+.footer .footer-inner {
+/*    bottom: auto !important; */
+}
+
+.page-content {
+   /*z-index: 1027;*/
+   color: #71788A;
+}
+
+.fa {
+	line-height: inherit;
+}
+
+.navbar .navbar-brand {
+	padding-top: 5px;
+}
+
+a.navbar-brand {
+	position: relative;
+	top: 4px;
+	font-style: italic;
+	font-size: 23pt !important;
+	margin-bottom: -4px;
+}
+
+a.navbar-brand img {
+	position: relative;
+	top: -2px;
+}
+
+.navbar .navbar-toggle.pull-left {
+	margin-top: 12px;
+}
+.navbar .navbar-toggle.navbar-toggle-img > img {
+	border-radius: 15px;
+	border-width: 0px;
+	max-height: 50px;
+	padding: 5px;
+}
+.skin-practera .navbar .navbar-toggle {
+	background-color: #99C1D8;
+}
+
+.navbar-buttons>.ace-nav
+{
+	display: inherit !important;
+}
+
+a.dash {
+	-moz-animation: flyin 1s 2s linear 1;
+	-moz-animation-fill-mode: backwards;
+	-ms-animation:  flyin 1s 2s linear 1;
+	-ms-animation-fill-mode: backwards;
+	-o-animation:  flyin 1s 2s linear 1;
+	-o-animation-fill-mode: backwards;
+	-webkit-animation:  flyin 1s 2s ease-in 1;
+	-webkit-animation-fill-mode: backwards;
+}
+
+
+li#usermenu {
+	min-width: 220px;
+}
+
+li#usermenu a {
+	text-align: left;
+}
+
+.fc-header-left .ace-icon {
+	padding-top: 2px;
+}
+
+.user-info {
+	max-width: 100px;
+	vertical-align: middle;
+	top: -2px;
+}
+
+.user-info small {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+
+.ace-nav .nav-user-photo {
+	max-width: 60px;
+	width: 58px;
+	height: inherit;
+	text-align: left;
+}
+
+.ace-nav .nav-uni-logo {
+  border-radius: 5px;
+  border: none;
+  max-width: 40px !important;
+  width: 40px !important;
+}
+
+
+.ace-nav > li:last-child {
+	border-right: 1px solid #5092AD !important;
+}
+
+.ace-nav > li > a > .badge {
+	position: relative !important;
+	top: -15px !important;
+	left: -5px !important;
+	padding-right: 5px !important;
+	padding-left: 5px !important;
+}
+
+.ace-nav > li > a > .menu-icon {
+	display: inline-block !important;
+	font-size: 25px !important;
+	color: #FFF !important;
+	text-align: center !important;
+	width: 20px !important;
+	margin-left: 10px !important;
+	top: -5px;
+}
+
+.page-header, .white-box {
+	background-color: #fff;
+	-webkit-border-radius: @content-border-radius;
+	-moz-border-radius: @content-border-radius;
+	-o-border-radius: @content-border-radius;
+	-ms-border-radius: @content-border-radius;
+	border-radius: @content-border-radius;
+	padding: 20px 20px;
+	-webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.1);
+	-moz-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.1);
+	-o-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.1);
+	-ms-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.1);
+	box-shadow: 0 1px 2px 0 rgba(0,0,0,0.1);
+}
+
+.task-content {
+    min-height: 50px;
+}
+
+.task-content .ace-icon {
+    float: left;
+    padding-right: 15px !important;
+}
+
+.profile-users .memberdiv {
+  	height: 125px;
+  	margin: 0 8px 10px;
+}
+
+.teambar {
+    background: #eee;
+    width: 100%;
+    padding: 10px;
+}
+}
+
+.skin-practera .page-content {
+		background: #F5FAFC;
+ }
+
+/* --------------- COLLAB -------------- */
+
+
+.skin-practera .collab-container > div {
+	vertical-align: central;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+.skin-practera .collab-container > img {
+	float: left;
+	padding-right: 5px;
+}
+
+.skin-practera .collab-container > span {
+	float: right;
+	font-size: 3em;
+	font-weight: bold;
+}
+
+.skin-practera .collab-container > .panel-default {
+	padding: 10px;
+	border-bottom: 1px black;
+	margin-bottom: 15px;
+}
+
+.skin-practera .collab-container > .header {
+	font-size: 1.6em;
+	font-weight: 500;
+}
+
+.skin-practera .add-form-container {
+	margin-top: 200px !important;
+	margin: 0 !important;
+}
+
+.skin-practera .custom-add-idea-btn {
+	border: none !important;
+	border-radius: 5px !important;
+	background-color: #4ACAB4 !important;
+	min-width: 230px !important;
+	font-weight: 600 !important;
+	margin-top: 50px !important;
+}
+
+.skin-practera .custom-search-form {
+	border-radius: 5px !important;
+	width: 230px !important;
+	margin-top: 40px !important;
+}
+
+.skin-practera .margin-top-fix {
+	margin-top: 40px !important;
+}
+
+.skin-practera .cloud-bg {
+	background: url(/collab/img/cloud.png) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	overflow: hidden;
+}
+
+.skin-practera .challenges-label {
+	font-weight: 600;
+	color: #666;
+}
+
+.skin-practera .topic span {
+	color: #FFF !important;
+	text-shadow: 2px 2px 3px #000;
+	display: block;
+	height: 80px;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.65)));
+	/* background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); */
+	background: -o-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
+	background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
+	/* background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 );
+}
+
+.skin-practera .topic img {
+	opacity: 1.0 !important;
+}
+
+.skin-practera .topic img {
+	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
+	filter: gray; /* IE6-9 */
+	-webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+.skin-practera .topic:hover > img {
+	filter: none;
+	-webkit-filter: grayscale(0%);
+}
+
+
+/* TEST STUFF END */
+
+
+
+
+.skin-practera .main-container .main-content .page-content .collab-container .white-box .filters ul {
+	border: none !important;
+}
+
+.skin-practera .main-container .main-content .page-content .collab-container .white-box .filters ul li {
+	border: 1px solid #EEE !important;
+}
+
+.skin-practera .main-container .main-content .page-content .collab-container .white-box .filters ul .active a {
+	color: #666 !important;
+}
+
+.skin-practera .main-container .main-content .page-content .collab-container .white-box .filters ul .active a span {
+	background: #FF7A61 !important;
+}
+
+.skin-practera .main-container .main-content .page-content .collab-container .white-box .filters ul li a {
+	border: none !important;
+	background: transparent !important;
+	margin: 0px !important;
+	font-weight: bold !important;
+	color: #AAA !important;
+	font-size: 12px !important;
+	-webkit-transition: all 0.5s ease !important;
+	-moz-transition: all 0.5s ease !important;
+	-ms-transition: all 0.5s ease !important;
+	-o-transition: all 0.5s ease !important;
+	transition: all 0.5s ease !important;
+}
+
+.skin-practera .main-container .main-content .page-content .collab-container .white-box .filters ul li a:hover {
+	margin: 0px !important;
+	color: #FFF !important;
+	background: #00B2B2 !important;
+}
+
+.skin-practera .main-container .main-content .page-content .collab-container .collab-content .row .col-md-3 .collab-wrapper {
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	-ms-border-radius: 3px;
+	border-radius: 3px;
+	box-shadow: 0px 1px 1px 1px rgba(204, 204, 204, 0.3);
+	height: 580px;
+	color: #596679 !important;
+	background: #FFF;
+	word-wrap: break-word;
+}
+
+.skin-practera .main-container .main-content .page-content .collab-container .collab-content .row .col-md-3 .collab-wrapper .post-description {
+	height: 150px;
+	overflow-y: scroll;
+}
+
+.skin-practera .main-container .main-content .page-content .collab-container .collab-content .row .col-md-3 .collab-wrapper .panel-title {
+	display: table;
+	position: static;
+	height: 60px;
+/*	overflow-y: hidden;
+	position:relative;
+	height: 55px;
+*/    text-align: center;
+	width: 100%;
+	background-color: rgb(40,40,40);
+}
+
+.skin-practera .main-container .main-content .page-content .collab-container .collab-content .row .col-md-3 .collab-wrapper .panel-title .middle {
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+	position: static;
+}
+
+.skin-practera .main-container .main-content .page-content .collab-container .collab-content .row .col-md-3 .collab-wrapper .panel-title .inner {
+	position: static;
+	max-height: 39px;
+	overflow: hidden;
+}
+
+.skin-practera .main-container .main-content .page-content .collab-container .collab-content .row .col-md-3 .collab-wrapper .panel-title a {
+	font-size: 15px !important;
+	font-weight: bold !important;
+	font-family: helvetica, arial, tahoma, sans-serif !important;
+	color: #eee;
+}
+
+.skin-practera .main-container .main-content .page-content .collab-container .collab-content .row .col-md-3 .collab-wrapper .post-topic {
+	font-size: 10px;
+	height: 30px;
+	overflow-y: hidden;
+}
+
+.skin-practera .main-container .main-content .page-content .collab-container .collab-content .row .col-md-3 .collab-wrapper .panel-heading h2 a {
+	font-size: 14px !important;
+	font-weight: bold !important;
+	font-family: helvetica, arial, tahoma, sans-serif !important;
+	line-height: 20px !important;
+	max-height: 40px !important;.
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	color: #596679;
+}
+
+.skin-practera .main-container .main-content .page-content .collab-container .collab-content .row .col-md-3 .collab-wrapper .panel-heading h2 a:hover {
+	color: #8C98AA;
+	text-decoration: none;
+}
+
+
+.custom-btn-group {
+	background: transparent !important;
+	border: none !important;
+	color: #596679 !important;
+	font-size: 16px !important;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	padding-bottom: 20px;
+}
+
+.custom-btn-group:hover {
+	background: transparent !important;
+	border: none !important;
+	color: #8C98AA !important;
+}
+
+.custom-padding {
+	padding: 5px;
+}
+
+ .collab-img-holder {
+	height: 200px;
+	max-height: 200px;
+	min-height: 200px;
+	overflow: hidden;
+	text-align: center;
+	white-space: nowrap;
+	padding: 0px !important;
+}
+
+.collab-img-holder .helper {
+	width: 0px;
+	text-align: center;
+	padding: 0 !important;
+ }
+
+
+
+ .collab-img-holder img {
+	height: 100%;
+	 max-height: 200px;
+	-webkit-object-fit: cover;
+	-moz-object-fit: cover;
+	-ms-object-fit: cover;
+	-o-object-fit: cover;
+	object-fit: cover;
+}
+
+.collab-container .collab-content .row .col-md-3 .collab-wrapper .collab-img-holder {
+	text-align: center;
+	white-space: nowrap;
+}
+
+.post-view .collab-img-holder {
+	float: right;
+	padding: 20px;
+}
+
+.post-view .panel-body {
+	min-height: 180px;
+}
+
+.collab-container .collab-content .row .col-md-3 .collab-wrapper .collab-img-holder .helper {
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+	width: 0px;
+}
+
+.collab-container .collab-content .row .col-md-3 .collab-wrapper .collab-img-holder img {
+	max-width: 100%;
+	max-height: 200px;
+	vertical-align: middle;
+}
+
+.extra-information {
+	font-size: 10px;
+	padding-left: 2px;
+}
+
+.profile-img-container {
+	margin-top: 6px;
+	word-break: break-word;
+	word-wrap: break-word;
+	padding-right: 0px;
+ }
+
+.post-view .profile-img-container {
+	height: 50px;
+}
+
+/* --------------- COLLAB END -------------- */
+
+
+
+/* --------------- PROJECT -------------- */
+
+.team-question {
+	opacity: 1;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+.team-question:hover {
+	cursor: pointer;
+	opacity: 0.6;
+}
+
+
+/* --------------- PROJECT END -------------- */
+
+
+/* --------------- PROJECT STORY/ACTIVITY VIEW -------------- */
+.activity {
+	margin-top: 50px !important;
+}
+
+.story-content a {
+	color: #428bca !important;
+}
+
+
+.story-sidebar div, .story-content div {
+font-size: 14px;
+}
+.story-sidebar font[size="1"], .story-content font[size="1"] {
+font-size: 10px;
+}
+.story-sidebar font[size="3"], .story-content font[size="3"] {
+font-size: 14px;
+}
+.story-sidebar font[size="5"], .story-content font[size="5"] {
+font-size: 18px;
+}
+/* --------------- PROJECT STORY/ACTIVITY VIEW END -------------- */
+
+/* -------------- NOTIFICATIONS ----------------- */
+.toast {
+  background-color: #030303;
+}
+.toast-success {
+  background-color: #51a351;
+}
+.toast-error {
+  background-color: #bd362f;
+}
+.toast-info {
+  background-color: blue;
+}
+.toast-warning {
+  background-color: #f89406;
+}
+
+/* -------------- NOTIFICATIONS END ----------------- */
+
+
+/* ----- EPortfolio CSS */
+
+
+.eport .page-heading{
+	padding-top:40px;
+	padding-left: 30px;
+
+}
+
+.eport .aboutpage-main-container{
+
+	padding: 20px;
+}
+
+.eport .related-links-panel{
+	padding:20px;
+}
+
+.eport .thumb{
+
+	padding-bottom: 10px;
+}
+
+.eport iframe {
+    overflow: auto;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* -------------- ANIMATIONS ----------------- */
+
+@-moz-keyframes flyin {
+	from { -moz-transform: skew(65deg) translateX(-100%); }
+	25% { -moz-transform: skew(65deg); translateX(0%); }
+	50% { -moz-transform: skew(-15deg); translateX(0%); }
+	75% { -moz-transform: skew(25deg); translateX(-0%); }
+	to { -moz-transform: none; }
+}
+
+@-ms-keyframes flyin {
+	from { -ms-transform: skew(65deg) translateX(-400px); }
+	25% { -ms-transform: skew(65deg); translateX(0px); }
+	50% { -ms-transform: skew(-15deg); translateX(0px); }
+	75% { -ms-transform: skew(25deg); translateX(0px); }
+	to { -ms-transform: none; }
+}
+
+@-o-keyframes flyin {
+	from { -o-transform: skew(65deg) translateX(-100%); }
+	25% { -o-transform: skew(65deg); translateX(0%);}
+	50% { -o-transform: skew(-15deg); translateX(0%);}
+	75% { -o-transform: skew(25deg); translateX(0%);}
+	to { -o-transform: none; }
+}
+
+@-webkit-keyframes flyin {
+	from { -webkit-transform: skew(65deg) translateX(-100%); }
+	75% { -webkit-transform: skew(65deg); translateX(0%);}
+	80% { -webkit-transform: skew(-15deg); translateX(0%);}
+	95% { -webkit-transform: skew(25deg); translateX(0%);}
+	to { -webkit-transform: none; }
+}
+/* -------------- ANIMATIONS END ----------------- */
+
